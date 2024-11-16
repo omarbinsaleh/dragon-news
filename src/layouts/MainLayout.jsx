@@ -22,7 +22,7 @@ const MainLayout = () => {
             <section className='main sm:col-span-6 max-h-[800px] overflow-auto'>
                <Outlet></Outlet>
             </section>
-            <aside className='right sm:col-span-3 space-y-8'>
+            <aside className='right hidden sm:block sm:col-span-3 space-y-8'>
                <SocialLogin></SocialLogin>
                <FindUs></FindUs>
             </aside>

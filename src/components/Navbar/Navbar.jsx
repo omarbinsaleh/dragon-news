@@ -22,10 +22,10 @@ const Navbar = () => {
   }
 
   return (
-    <nav className='flex items-center justify-between'>
+    <nav className='flex items-center justify-between px-3'>
       <div ></div>
       <div className='flex justify-center '>
-         <ul className='flex items-center justify-center gap-10'>
+         <ul className='flex items-center justify-center gap-4 sm:gap-10'>
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/about'>About</Link></li>
             <li><Link to='/career'>Career</Link></li>

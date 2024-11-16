@@ -7,7 +7,7 @@ const Header = () => {
 
    
   return (
-    <div className='flex flex-col items-center py-3'>
+    <div className='flex flex-col items-center py-3 px-3'>
       <div>
          <img className='w-[500px]' src={logo} alt="" />
       </div>
