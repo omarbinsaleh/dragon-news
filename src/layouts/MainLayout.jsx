@@ -1,4 +1,3 @@
-import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Header from '../components/Header/Header'
 import LatestNews from '../components/LatestNews/LatestNews'
@@ -8,6 +7,7 @@ import SocialLogin from '../components/SocialLogin/SocialLogin'
 import FindUs from '../components/FindUs/FindUs'
 
 const MainLayout = () => {
+
    return (
       <div className='font-poppins min-h-screen space-y-4'>
          <header className='max-w-6xl mx-auto space-y-2'>
